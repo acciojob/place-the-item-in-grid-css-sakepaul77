@@ -1,2 +1,17 @@
+.holder {
+  display: grid; /* Enable grid layout */
+  grid-template-rows: repeat(2, 1fr); /* Define two equal rows */
+  grid-template-columns: repeat(2, 1fr); /* Define two equal columns */
+  width: 200px; /* Set the total width of the grid container */
+  height: 200px; /* Set the total height of the grid container */
+  gap: 0; /* Optional: Adjust spacing between grid items */
+}
+
+.item {
+  display: flex; /* Optional: Center content */
+  justify-content: center; /* Optional: Center content horizontally */
+  align-items: center; /* Optional: Center content vertically */
+  border: 1px solid black; /* Optional: Visual aid to see grid items */
+}
 
 /* Your CSS Code here. */
